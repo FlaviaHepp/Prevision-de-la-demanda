@@ -1,5 +1,3 @@
-# Prevision-de-la-demanda
-
 # Previsión de demanda con Machine Learning (LightGBM)
 
 Este proyecto desarrolla un **modelo de previsión de demanda** utilizando técnicas de **machine learning para series temporales**, con el objetivo de predecir ventas futuras a nivel **tienda–producto–fecha**.
@@ -76,37 +74,37 @@ Este proyecto aborda el problema desde un enfoque **data-driven**, utilizando hi
 
 SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 📈 Evaluación
-Evaluación en conjunto de validación temporal
+- Evaluación en conjunto de validación temporal
 
-Optimización de hiperparámetros
+- Optimización de hiperparámetros
 
-Selección de variables según:
+- Selección de variables según:
 
-importancia por ganancia (gain)
+- Importancia por ganancia (gain)
 
-eliminación de features sin aporte
+- Eliminación de features sin aporte
 
 🏆 Resultados
-Modelo final entrenado con todos los datos históricos
+- Modelo final entrenado con todos los datos históricos
 
-Predicciones generadas para el conjunto de test
+- Predicciones generadas para el conjunto de test
 
-Archivo final de salida:
+- Archivo final de salida:
 
 submission_demand.csv
 
 🛠️ Tecnologías utilizadas
-Python
+- Python
 
-pandas, numpy
+- pandas, numpy
 
-matplotlib, seaborn
+- matplotlib, seaborn
 
-LightGBM
+- LightGBM
 
-scikit-learn
+- scikit-learn
 
-missingno
+- missingno
 
 📂 Estructura del repositorio
 ├── demanda/
@@ -117,16 +115,15 @@ missingno
 ├── submission_demand.csv
 ├── README.md
 🚀 Próximos pasos
-Backtesting con ventanas móviles
+- Backtesting con ventanas móviles
 
-Comparación con modelos clásicos (ARIMA / SARIMA)
+- Comparación con modelos clásicos (ARIMA / SARIMA)
 
-Incorporación de variables externas (promociones, eventos)
+- Incorporación de variables externas (promociones, eventos)
 
-Deploy del modelo como servicio de forecasting
+- Deploy del modelo como servicio de forecasting
 
-Automatización del pipeline (MLflow / Airflow)
+- Automatización del pipeline (MLflow / Airflow)
 
-👤 Autor
 Flavia Hepp
 Data Scientist en formación
