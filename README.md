@@ -109,5 +109,7 @@ SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 - Deploy del modelo como servicio de forecasting
 - Automatización del pipeline (MLflow / Airflow)
 
+👤 Autor
+
 Flavia Hepp
 Data Scientist en formación
