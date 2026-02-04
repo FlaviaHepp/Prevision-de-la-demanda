@@ -96,13 +96,13 @@ SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 
 - pandas, numpy
 
-- matplotlib, seaborn
+- matplotlib, `seaborn`
 
 - LightGBM
 
 - scikit-learn
 
-- missingno
+- `missingno`
 
 📂 Estructura del repositorio
 ├── demanda/
