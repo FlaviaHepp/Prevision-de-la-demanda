@@ -89,9 +89,7 @@ SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 
 - Predicciones generadas para el conjunto de test
 
-- Archivo final de salida:
-
-submission_demand.csv
+- Archivo final de salida: submission_demand.csv
 
 🛠️ Tecnologías utilizadas
 - Python
