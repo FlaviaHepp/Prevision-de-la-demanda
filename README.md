@@ -20,7 +20,7 @@ Este proyecto aborda el problema desde un enfoque **data-driven**, utilizando hi
 ## 🎯 Objetivo de Machine Learning
 
 - **Tipo de problema:** Regresión (series temporales)
-- **Variable objetivo:** `sales`
+- **Variable objetivo:** Ventas
 - **Horizonte de predicción:** múltiples períodos futuros
 - **Métrica de evaluación:** SMAPE (Symmetric Mean Absolute Percentage Error)
 
@@ -75,33 +75,22 @@ Este proyecto aborda el problema desde un enfoque **data-driven**, utilizando hi
 SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 📈 Evaluación
 - Evaluación en conjunto de validación temporal
-
 - Optimización de hiperparámetros
-
 - Selección de variables según:
-
-- Importancia por ganancia (gain)
-
-- Eliminación de features sin aporte
+  - Importancia por ganancia (gain)
+  - Eliminación de features sin aporte
 
 🏆 Resultados
 - Modelo final entrenado con todos los datos históricos
-
 - Predicciones generadas para el conjunto de test
-
 - Archivo final de salida: submission_demand.csv
 
 🛠️ Tecnologías utilizadas
 - Python
-
 - pandas, numpy
-
 - matplotlib, `seaborn`
-
 - LightGBM
-
 - scikit-learn
-
 - `missingno`
 
 📂 Estructura del repositorio
@@ -112,15 +101,12 @@ SMAPE = (|y_pred - y_true| / (|y_pred| + |y_true|)) * 200
 ├── Previsión de la demanda.py
 ├── submission_demand.csv
 ├── README.md
+
 🚀 Próximos pasos
 - Backtesting con ventanas móviles
-
 - Comparación con modelos clásicos (ARIMA / SARIMA)
-
 - Incorporación de variables externas (promociones, eventos)
-
 - Deploy del modelo como servicio de forecasting
-
 - Automatización del pipeline (MLflow / Airflow)
 
 Flavia Hepp
